@@ -1,0 +1,35 @@
+.footer{
+    padding-top: 20px;
+    padding-bottom: 157px;
+}
+.footer--descr{
+    margin-bottom: 93px;
+}
+.footer--wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer--logo--block {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    transition: all 0.2s ease-in;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+.footer--logo--svg {
+    width: 32px;
+    height: 21px;
+    background: url('../../img/svg-no-sprite/footer-logo.svg') center /cover no-repeat;
+}
+.footer--logo--deep{
+    font-size: 22px;
+    color: var(--text-color);
+}
+
+#tr-popup{
+    display: none !important;
+}

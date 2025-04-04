@@ -1,27 +1,42 @@
-.title-1 {
-	margin: 1em 0 0.5em;
-	font-size: 38px;
-	font-weight: 700;
-	font-family: var(--font-titles);
+.sublogo{
+	font-family: var(--third-family);
+	font-weight: 400;
+	font-size: 14px;
+	color: var(--text-color);
 }
 
-.title-2 {
-	margin: 1em 0 0.5em;
-	font-size: 32px;
-	font-weight: 700;
-	font-family: var(--font-titles);
+.chat-text{
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: clamp(0.625rem, 0.6rem + 0.13vw, 0.75rem);
 }
 
-.title-3 {
-	margin: 1em 0 0.5em;
-	font-size: 26px;
-	font-weight: 700;
-	font-family: var(--font-titles);
+.main--descr{
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 14px;
+	color: var(--text-color);
 }
 
-.title-4 {
-	margin: 1em 0 0.5em;
-	font-size: 18px;
-	font-weight: 700;
-	font-family: var(--font-titles);
+.sub--main{
+	position: relative;
+	font-family: var(--second-family);
+	font-weight: 400;
+	font-size: clamp(0.688rem, 0.625rem + 0.31vw, 1rem);
+	color: var(--text-opacity);
+}
+
+.footer--descr{
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: clamp(0.5rem, 0.425rem + 0.38vw, 0.875rem);
+	color: var(--text-footer);
+	text-align: center;
+}
+
+.footer--logo{
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: clamp(0.563rem, 0.475rem + 0.44vw, 1rem);
+	color: var(--text-color);
 }
